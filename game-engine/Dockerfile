@@ -29,6 +29,7 @@ RUN apt-get update \
      gettext-base \
      unzip \
      patch \
+     firefox-esr \
      && rm -rf /var/lib/apt/lists/*
 
 # Configure pulseaudio.
